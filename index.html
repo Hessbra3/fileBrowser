@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Browser</title>
+    <!-- Pico.css CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@2.0.6/css/pico.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to File Browser</h1>
+        <p>This is a placeholder index.html file. Customize your file browser here.</p>
+        <table role="grid">
+            <thead>
+                <tr>
+                    <th>File icon</th>
+                    <th>File name</th>
+                    <th>File type</th>
+                    <th>File size</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>📄</td>
+                    <td><a href="./hello.pdf" download>hello.pdf</a></td>
+                    <td>PDF Document</td>
+                    <td>120 KB</td>
+                </tr>
+                <tr>
+                    <td>🖼️</td>
+                    <td><a href="./hello.png" download>hello.png</a></td>
+                    <td>PNG Image</td>
+                    <td>512 KB</td>
+                </tr>
+                <tr>
+                    <td>🌐</td>
+                    <td><a href="./hello.html" download>hello.html</a></td>
+                    <td>HTML File</td>
+                    <td>2 KB</td>
+                </tr>
+                <tr>
+                    <td>🔢</td>
+                    <td><a href="./hello.json" download>hello.json</a></td>
+                    <td>JSON File</td>
+                    <td>1 KB</td>
+                </tr>
+                <tr>
+                    <td>📄</td>
+                    <td><a href="./hello.txt" download>hello.txt</a></td>
+                    <td>Plaintext File</td>
+                    <td>1 KB</td>
+                </tr>
+            </tbody>
+        </table>
+        <ol>
+            <li>The file browser loads things quickly, making navigation efficient.</li>
+            <li>It struggles more with PNG and PDF files, which may take longer to load or preview.</li>
+            <li>The interface jumps from the root to the file like a typical file explorer.</li>
+        </ol>
+    </div>
+</body>
+</html>
